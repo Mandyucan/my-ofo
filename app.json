@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/charge/index",    
+    "pages/wallet/index",
+    "pages/my/index",    
+    "pages/warn/index",
+    "pages/scanResult/index",
+    "pages/billing/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#359eff",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "myofo",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

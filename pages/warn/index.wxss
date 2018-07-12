@@ -1,0 +1,77 @@
+/* 故障报修页 */
+/* pages/warn/index.wxss */
+.container {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.title {
+  background-color: #f2f2f2;
+  padding: 30rpx 0 30rpx 30rpx;
+  font-size: 28rpx;
+}
+.choose {
+  background-color: #fff;
+}
+.choose-grids {
+  padding: 50rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.grid {
+  width: 40%;
+  height: 100rpx;
+  margin-top: 36rpx;
+  border: 2px solid #359eff;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 100rpx;
+}
+.grid:nth-of-type(1), .grid:nth-of-type(2) {
+  margin-top: 0;
+}
+.action .action-photo {
+  padding: 40rpx 0 40rpx 40rpx;
+  background-color: #fff;
+}
+.action .action-photo image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 25rpx;
+  position: relative;
+  overflow: visible;
+  vertical-align: top;
+}
+.action .action-photo image icon {
+  position: absolute;
+  top: -20rpx;
+  right: -20rpx;
+}
+.action .action-photo .add {
+  display: inline-block;
+  height: 120rpx;
+  width: 120rpx;
+  margin-left: 25rpx;
+  border: 2rpx dotted #ccc;
+  color: #ccc;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 120rpx;
+}
+.action .action-input{
+  margin-top: 30rpx;
+  padding-left: 50rpx;
+  background-color: #fff;
+}
+.action .action-input input{
+  padding: 40rpx 0 40rpx 0;
+   width: 90%; 
+}
+.action .action-input input:first-child {
+  border-bottom: 2rpx solid #ccc;
+}
+.action .action-submit button {
+  margin: 40rpx 40rpx 0 40rpx;
+  width: 90%;
+  background-color: #f2f2f2; 
+}
